@@ -1,0 +1,40 @@
+.page03 {
+  background-color: #ffffff;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.infoApre {
+  width: 80%;
+  margin-top: 8%;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin-left: 15%;
+}
+
+.imgGrp {
+  width: 70%;
+  border-radius: 15px;
+  margin-left: 20%;
+  top: calc(40% - 100px);
+}
+
+.btnCon2 {
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all ease 0.2s;
+  text-align: center;
+
+  margin-left: 12%;
+  margin-top: 6%;
+}
+
+.btnCon2:hover {
+  color: rgb(54, 27, 27);
+  font-size: 15px;
+}

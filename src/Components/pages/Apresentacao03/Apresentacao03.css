@@ -1,0 +1,90 @@
+.page05 {
+  background-color: #ffffff;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.formularios {
+  max-width: 50%;
+  margin-left: 25%;
+  padding-bottom: 8%;
+}
+
+.divForm {
+  margin: 15px;
+}
+
+.formField {
+  height: 60px;
+  width: 100%;
+  border: 0px solid #ccc;
+  background-color: rgb(238, 238, 238);
+  border-radius: 5%;
+}
+
+input,
+select,
+textarea {
+  height: 40px;
+  font-size: 14px;
+  line-height: normal;
+  color: #000;
+  margin: 0;
+  background: #fff;
+  width: 100%;
+  padding: 0 20px;
+  text-align: left;
+  appearance: none;
+}
+
+.linksbtns4 {
+  background-color: #f43c41;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  width: 33%;
+  margin-left: 10px;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px;
+  transition: all ease 0.3s;
+  position: absolute;
+  cursor: pointer;
+  border: none;
+}
+
+.linksbtns4:hover {
+  background-color: #312d2d;
+  color: #ffffff;
+}
+
+.formTitle {
+  margin-top: 2%;
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: 2%;
+}
+
+.formParagrafo {
+  text-align: center;
+  font-weight: 700;
+  color: rgb(100, 100, 100);
+  margin-bottom: 3%;
+}
+
+.mensagemSuccess {
+  background-color: rgb(4, 190, 119);
+  width: 30%;
+  height: 50px;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 5px;
+  margin-left: 35%;
+}
+
+.error-message {
+  color: red;
+}

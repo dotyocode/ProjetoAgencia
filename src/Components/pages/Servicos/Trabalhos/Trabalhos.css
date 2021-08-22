@@ -1,0 +1,21 @@
+.trabalhos {
+  background-color: #ffffff;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 3%;
+}
+
+.cardF {
+  margin-bottom: 20px;
+}
+
+.exten {
+  opacity: 100%;
+  transition: all 0.2s ease-in;
+}
+
+.exten:hover {
+  opacity: 60%;
+  transition: all 0.2s ease-out;
+}

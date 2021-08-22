@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Navbar from "../src/Components/Navbar/Navbar";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Home from "./Components/pages/Home/Home";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Footer from "./Components/Footer/Footer";
+import Contato from "./Components/pages/Contato/Contato";
+import Page404 from "./Components/pages/404/Page404";
+import Servicos from "./Components/pages/Servicos/Servicos";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/contato" component={Contato} />
+          <Route path="/servicos" component={Servicos} />
+          <Route path="*" component={Page404} />
+        </Switch>
+        <Footer />
+      </Router>
+    </>
   );
 }
 

@@ -1,0 +1,70 @@
+.formsContact {
+  background-color: #ffffff;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 3%;
+}
+
+.pt1 {
+  /* background-color: rgb(228, 228, 228); */
+  width: 80%;
+  margin: 30px;
+  height: 600px;
+  padding: 30px;
+}
+
+.formField2 {
+  height: 60px;
+  width: 100%;
+  border: 0px solid #ccc;
+  background-color: rgb(238, 238, 238);
+  border-radius: 5%;
+}
+
+.formField3 {
+  height: 150px;
+  width: 100%;
+  border: 0px solid #ccc;
+  background-color: rgb(238, 238, 238);
+  border-radius: 5%;
+}
+
+.formularios2 {
+  max-width: 100%;
+  margin: 30px;
+  margin-left: -10%;
+}
+
+.divForm2 {
+  margin: 15px;
+}
+
+.paragrafoForms2 {
+  font-size: 18px;
+  margin-bottom: 0;
+  color: #969696;
+  width: 70%;
+  margin-bottom: 5%;
+}
+
+.h3Forms {
+  font-weight: bold;
+  color: black;
+  transition: all ease 0.3s;
+}
+
+.h3Forms:hover {
+  color: #f43c41;
+}
+
+.mensagemSuccess2 {
+  background-color: rgb(4, 190, 119);
+  width: 30%;
+  height: 50px;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 5px;
+  margin-left: 45%;
+}

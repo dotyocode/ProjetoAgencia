@@ -1,0 +1,49 @@
+.page04 {
+  background-color: #f43c41;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.paragrafoStyle01 {
+  text-align: center;
+  color: white;
+  font-weight: 500;
+}
+
+.controle {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5% 0 15% 0;
+}
+
+.infoStyle01 {
+  color: white;
+  text-align: center;
+}
+
+.paragrafoStyle02 {
+  text-align: center;
+  color: white;
+  font-weight: 300;
+  margin-top: 5%;
+  font-size: 20px;
+}
+
+.linksbtns3 {
+  background-color: white;
+  color: #f43c41;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 15px;
+  transition: all ease 0.3s;
+  position: absolute;
+  cursor: pointer;
+  left: calc(50% - 100px);
+}
+
+.linksbtns3:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(53, 52, 52);
+}

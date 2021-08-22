@@ -1,0 +1,20 @@
+.footer {
+  background-color: #292a2c;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  bottom: 0;
+}
+
+.paragrafoFooter {
+  color: white;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.paragrafoFooter2 {
+  color: white;
+  text-align: center;
+  margin-top: -1%;
+}

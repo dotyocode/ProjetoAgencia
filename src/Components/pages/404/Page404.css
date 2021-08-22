@@ -1,0 +1,17 @@
+.info02 {
+  left: calc(32% - 100px);
+  top: calc(50% - 100px);
+  position: absolute;
+}
+
+.titulo2 {
+  color: white;
+  font-size: 150px;
+}
+
+.paragrafo2 {
+  color: white;
+  font-size: 27px;
+  font-weight: 100;
+  text-align: center;
+}

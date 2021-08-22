@@ -1,0 +1,48 @@
+.page02 {
+  background-color: #292a2c;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  padding: 60px;
+}
+
+.container {
+  max-width: 100%;
+}
+
+.tituloCard {
+  color: white;
+  text-align: center;
+}
+
+.paragrafoCard {
+  color: white;
+  text-align: center;
+  font-weight: 100;
+  font-size: 15px;
+  margin: 10px;
+}
+
+.containerBtn {
+  text-align: center;
+}
+
+.btnCon {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all ease 0.2s;
+}
+
+.btnCon:hover {
+  color: rgb(255, 0, 0);
+}
+
+.imgs {
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
