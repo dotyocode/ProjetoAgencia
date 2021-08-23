@@ -6,7 +6,7 @@ Neste projeto, utilizei o framework React e usei algumas dependencias como o Rea
 # Informações:
 
     • Todas imagens e videos do site foram tirados do site Pexels.com/pt-br
-    • Todo o direito de imagens são Livres, Baixados todos da Pexels
+    • Todos os direitos de imagens são Livres, Baixados todos da Pexels
 
 
 # Instalação:
